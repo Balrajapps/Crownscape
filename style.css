@@ -122,7 +122,8 @@ h3 {
   font-size: 1.35rem;
 }
 
-p, li {
+p,
+li {
   font-size: 1.05rem;
   line-height: 1.7;
 }
