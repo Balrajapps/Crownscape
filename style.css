@@ -6,7 +6,6 @@
   --purple: #35105f;
   --purple-2: #4b1f7b;
   --gold: #f0b62d;
-  --gold-dark: #c88b13;
   --text: #2f2240;
   --muted: #6d5d72;
   --shadow: 0 12px 28px rgba(53, 16, 95, 0.18);
@@ -14,10 +13,6 @@
 
 * {
   box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 body {
@@ -61,7 +56,6 @@ body {
   margin: 4px 0 0;
   font-size: 0.95rem;
   color: #f8ebc3;
-  opacity: 0.95;
 }
 
 .nav {
@@ -83,14 +77,11 @@ body {
   padding: 12px 20px;
   font-weight: 700;
   box-shadow: 0 8px 18px rgba(53, 16, 95, 0.12);
-  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
 }
 
 .nav a:hover,
 .button-link:hover {
-  transform: translateY(-1px);
   background: #fff2cf;
-  box-shadow: 0 10px 20px rgba(53, 16, 95, 0.18);
 }
 
 .card {
@@ -99,10 +90,6 @@ body {
   border-radius: 24px;
   padding: 28px 24px;
   box-shadow: var(--shadow);
-}
-
-.card + .card {
-  margin-top: 18px;
 }
 
 h2 {
@@ -154,11 +141,6 @@ ul {
   margin-top: 26px;
   color: var(--muted);
   font-size: 0.95rem;
-}
-
-.footer a {
-  color: var(--purple);
-  font-weight: 700;
 }
 
 .grid-links {
